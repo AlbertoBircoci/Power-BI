@@ -1,1 +1,15 @@
+Exercise: Create a Basic Report to Show a Simple Table of Abba Songs
 
+Objective:
+- Load data from the provided Songs.xlsx file.
+- Create a simple table visual in Power BI Desktop displaying:
+    - SongTitle
+    - ReleaseDate
+
+Steps Taken:
+- Imported the Songs.xlsx file into Power BI.
+- Added a Table visual to the report canvas.
+- Dragged the fields SongTitle and ReleaseDate into the Table.
+- Adjusted the column order and formatting for readability.
+
+Link task: https://www.wiseowl.co.uk/power-bi/exercises/power-bi-desktop/basic-reports/4465/
