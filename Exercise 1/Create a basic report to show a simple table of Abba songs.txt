@@ -12,4 +12,3 @@ Steps Taken:
 - Dragged the fields SongTitle and ReleaseDate into the Table.
 - Adjusted the column order and formatting for readability.
 
-Link task: https://www.wiseowl.co.uk/power-bi/exercises/power-bi-desktop/basic-reports/4465/
