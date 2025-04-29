@@ -1,1 +1,12 @@
+Exercise: Create a Visual Report Showing a Count of Skyscrapers by Country and City
 
+Objective:
+- Display the number of skyscrapers per country using a bar chart.
+- Enable drill-down to show skyscraper counts per city within each country.
+
+Steps Taken:
+- Used the provided Power BI report file.
+- Created a bar chart with conditional formatting based on skyscraper count.
+- Added a hierarchy with Country and City fields.
+- Enabled Drill Mode to allow navigation from country-level to city-level data.
+- Styled the chart title and applied data labels inside bars.
