@@ -1,1 +1,14 @@
+Exercise: Customize a Decomposition Tree to Show Box Office Data
 
+Objective:
+Lock the "Certificate" node in place.
+Change the color of the connector lines between nodes.
+Enable expand/collapse by clicking on nodes.
+Set the data bars to scale relative to their parent node.
+
+Steps Taken:
+Used the Decomposition Tree visual with fields: Certificate → Genre → Director.
+Locked the Certificate node to prevent it from being removed or replaced.
+Customized the connector lines using the Format pane under "Tree > Connector line color".
+Activated drill mode by clicking the ↕️ Drill on click icon above the visual.
+Set bar scaling to "Parent" via Format pane > Bars > Options.
