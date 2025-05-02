@@ -1,0 +1,12 @@
+Exercise: Create a Clustered Column Chart to Compare Total Box Office by Certificate
+
+Objective:
+Visualize the total box office revenue for each certificate rating.
+Use a clustered column chart to compare values side-by-side.
+
+Steps Taken:
+Used the Clustered Column Chart visual.
+Dragged Certificate to the Axis field.
+Added BoxOfficeDollars to Values and set the aggregation to Sum.
+Enabled data labels to display exact revenue values above each column.
+Applied formatting such as axis titles, label positioning, and color adjustments to improve clarity.
