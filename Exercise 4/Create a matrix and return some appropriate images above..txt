@@ -1,1 +1,13 @@
+Exercise: Create a Matrix to Compare Film Counts by Genre and Certificate
 
+Objective:
+Build a matrix visual to show how many films exist for each combination of genre and certificate.
+Ensure the data counts are accurate and meaningful.
+Display totals for both rows and columns.
+
+Steps Taken:
+Used the Matrix visual in Power BI.
+Added Genre to Rows and Certificate to Columns.
+Replaced Count of Genre with Count of FilmID to reflect the actual number of films.
+Enabled row and column totals via the Format pane under "Subtotals" and "Grand totals".
+Adjusted formatting to improve readability (e.g., font size, style, alternating row colors).
