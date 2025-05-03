@@ -1,0 +1,12 @@
+Exercise: Link a Column Chart and a Pie Chart Using Interactive Filtering
+
+Objective:
+Configure interactivity so that selecting an artist in a column chart filters a pie chart showing sales by year.
+Improve visual clarity by adjusting label content and slice colors.
+
+Steps Taken:
+Created a clustered column chart with Artist on the X-axis and Sales as the value.
+Added a pie chart showing Sales by Year.
+Enabled visual interactivity: set the column chart to filter the pie chart via Format → Edit interactions.
+Replaced the pie chart's legend with visible data labels by enabling Category, value and percent under Data labels.
+Customized slice colors manually to visually distinguish each year.
