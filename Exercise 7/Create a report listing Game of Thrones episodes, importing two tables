@@ -1,1 +1,16 @@
+Exercise: Import Game of Thrones Data and Show Average Episode Scores
+
+Objective:
+Import a dataset of Game of Thrones episodes.
+Create a measure to calculate the average IMDb rating.
+Display the average rating by season in a table visual.
+
+Steps Taken:
+
+Imported the Excel file containing Game of Thrones episode data.
+Hid unnecessary columns and renamed fields for clarity.
+Created a measure to calculate the average rating per episode.
+Added a table visual with Season as rows and the new measure as values.
+Formatted the measure to show one decimal place.
+Updated the visual title to describe the content accurately.
 
