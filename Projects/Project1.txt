@@ -1,1 +1,73 @@
+📁 Project Summary: Natural Resources Dashboard in Power BI
+
+This project presents a multi-page interactive Power BI dashboard built on historical data of 11 major natural resources, using both price and volume indicators. The data was collected through a Python script and visualized in Power BI to explore trends, volatility, correlation, and anomalies.
+
+🧪 Data Collection
+
+🔹 Source: Yahoo Finance (via yfinance Python library)
+A custom Python script was developed to fetch historical daily close prices and trading volumes for the following 11 futures-based commodities:
+Crude Oil WTI, Crude Oil Brent, Gold, Silver, Natural Gas, Corn, Wheat, Soybean, Copper, Platinum, Palladium
+
+🔹 Output:
+The script fetched each asset's full available history and stored the Close and Volume columns in a consolidated .csv file.
+Each column was renamed to clearly indicate the resource and value type (e.g., CL=F_Close, GC=F_Volume).
+Additionally, dates were standardized to the format dd/mm/yyyy, and the CSV was cleaned to ensure numeric formatting.
+
+📊 Page 1 – Global Overview KPIs
+Purpose: Quick glance at current conditions and short-term evolution.
+🔹 Visual Elements:
+11 KPI cards showing current average price per resource
+11 conditional-format cards showing % deviation from monthly or yearly average (green up arrow for increase, red down arrow for decrease)
+
+🔹 Interactivity:
+A textual block explains the unit scale (e.g., Soybean shown in thousands, Copper in USD/lb)
+
+📈 Page 2 – Time Trends (Price & Volume)
+Purpose: Explore the evolution of each resource over time.
+🔹 Visual Elements:
+Two line charts (stacked): Price over time and Volume over time
+Overlayed 365-day moving average line for both charts
+
+🔹 Interactivity:
+Dropdown slicer to switch between commodities
+The graph updates automatically to display only the selected resource’s trend
+Time axis adjusted to show full range without scrolling
+
+🔄 Page 3 – Volatility & Correlation
+Purpose: Understand relative variability and how resources behave together.
+🔹 Volatility:
+Bar chart of standard deviation for each resource (calculated from daily returns)
+
+🔹 Correlation:
+Color-encoded heatmap of correlation matrix between daily prices
+Value labels omitted for clarity, color saturation guides interpretation
+
+🔹 Interactivity:
+Single resource slicer filters both visuals to emphasize relationships of a selected asset
+
+⚠️ Page 4 – Anomalies & Price Spikes
+This page highlights extreme price behavior for each resource over time.
+The blue line shows the daily price.
+The dotted black line is the 365-day moving average.
+The gray area represents the expected range (±1 standard deviation).
+
+🔹 Top 5 Tables:
+One table showing top 5 highest daily closing prices and the dates
+One table showing top 5 lowest closing prices and the dates
+🔹 Additional features:
+Constant lines and marker colors highlight extreme outlier behavior
+Explanation box below details what qualifies as an anomaly
+
+💾 Notes:
+All visuals are dynamically linked and refresh automatically when the CSV is updated with new dates.
+The dashboard is cleanly divided, labeled, and optimized for both presentation and interactive exploration.
+
+🔍 Conclusion
+This Power BI dashboard effectively transforms raw commodity price data into actionable insight, enabling users to:
+
+Monitor market dynamics across energy, metals, and agriculture
+Detect shifts and anomalies
+Understand macro-trends, risks, and co-movements
+The project blends financial data science with user-centered visualization to support real-world decision making or academic analysis.
+
 
